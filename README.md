@@ -1,1 +1,53 @@
 # ChessBot
+
+
+What style and approach can we take:
+- Predict the best move
+- Evaluate board positions
+- Plays like a human (imitate a playing style)
+- Play to win (as strong as possible)
+
+
+
+Have in consideration book moves (Opening, rules, exceptions)
+
+FEN strings
+PGN strings
+Bitboard / Tensor representation
+(Choose one of these)
+(Transform into a bit map)
+
+
+Options for model architecture:
+- CNN (AlphaZero)
+- Transformer-based models (Leela Chess)
+- Reinforcement learning (Deeper things)
+
+Frameworks:
+- TensorFlow
+- PyTorch
+
+TO TRAIN:
+- Calculate valid positions
+- Mask illegal moves as negatives
+- Augment data by flipping boards
+After training:
+- Predict move probabilities
+- Mask illegal moves
+- Highest probability move / Sample from probabilities (Human like move)
+
+
+Python-chess for integration
+
+
+Post execution:
+- Reinforcement learning (Self play or MCTS)
+- Model comprehension
+- Evaluate ELO
+
+
+Tools:
+python-chess
+pgnparser or chess.pgn
+PyTorch or TensorFlow
+numpy, pandas
