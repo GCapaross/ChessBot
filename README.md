@@ -57,6 +57,11 @@ numpy, pandas
 Prioritize higher time controls and higher elos
 
 
+
+
+
+Neural network with MinMaxing and Alpha-beta pruning
+
 [LINKS]
 
 - https://healeycodes.com/building-my-own-chess-engine
