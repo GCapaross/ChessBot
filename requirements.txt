@@ -1,0 +1,4 @@
+python-chess
+torch
+numpy
+tqdm

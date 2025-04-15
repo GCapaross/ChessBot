@@ -13,6 +13,7 @@ Have in consideration book moves (Opening, rules, exceptions)
 
 FEN strings
 PGN strings
+Tensor
 Bitboard / Tensor representation
 (Choose one of these)
 (Transform into a bit map)
@@ -51,3 +52,12 @@ python-chess
 pgnparser or chess.pgn
 PyTorch or TensorFlow
 numpy, pandas
+
+
+Prioritize higher time controls and higher elos
+
+
+[LINKS]
+
+- https://healeycodes.com/building-my-own-chess-engine
+
