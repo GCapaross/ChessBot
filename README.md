@@ -72,4 +72,5 @@ If we want we can ignore the dataset
 - https://python-chess.readthedocs.io/en/latest/
 - https://nanochess.org/chess3.html
 - https://www.chess.com/games
+- https://www.pgnmentor.com/files.html#openings
 
