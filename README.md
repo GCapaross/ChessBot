@@ -62,6 +62,9 @@ Prioritize higher time controls and higher elos
 
 Neural network with MinMaxing and Alpha-beta pruning
 
+
+If we want we can ignore the dataset
+
 [LINKS]
 
 - https://healeycodes.com/building-my-own-chess-engine
