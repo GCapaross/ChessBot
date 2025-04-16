@@ -67,4 +67,5 @@ Neural network with MinMaxing and Alpha-beta pruning
 - https://healeycodes.com/building-my-own-chess-engine
 - https://www.chessprogramming.org/Main_Page
 - https://python-chess.readthedocs.io/en/latest/
+- https://nanochess.org/chess3.html
 
