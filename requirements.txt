@@ -2,3 +2,4 @@ python-chess
 torch
 numpy
 tqdm
+pandas

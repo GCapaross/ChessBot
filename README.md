@@ -65,6 +65,9 @@ Neural network with MinMaxing and Alpha-beta pruning
 
 If we want we can ignore the dataset
 
+Another choice, would be for us to calculate moves, and then, let stockfish evaluate them
+But honestly that would be cheating
+
 [LINKS]
 
 - https://healeycodes.com/building-my-own-chess-engine
