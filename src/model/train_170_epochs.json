@@ -1,0 +1,1446 @@
+{
+  "outputs": [
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["True\n", "Using device:  cuda\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:19<00:00, 12.45it/s]  \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 31 - 1.0810 | Time: 259.9057807922363\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:18<00:00, 12.54it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 32 - 1.0723 | Time: 258.0656988620758\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.58it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 33 - 1.0662 | Time: 257.25555777549744\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.60it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 34 - 1.0603 | Time: 256.8267180919647\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.56it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 35 - 1.0549 | Time: 257.5958161354065\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.56it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 36 - 1.0490 | Time: 257.692312002182\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.55it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 37 - 1.0442 | Time: 257.8891351222992\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:18<00:00, 12.52it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 38 - 1.0387 | Time: 258.38423919677734\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.60it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 39 - 1.0340 | Time: 256.8564169406891\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.54it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 40 - 1.0294 | Time: 257.9529573917389\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.55it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 41 - 1.0250 | Time: 257.8231248855591\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.56it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 42 - 1.0206 | Time: 257.6615629196167\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.56it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 43 - 1.0161 | Time: 257.5452489852905\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.57it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 44 - 1.0117 | Time: 257.4464406967163\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.57it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 45 - 1.0078 | Time: 257.37139320373535\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.58it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 46 - 1.0039 | Time: 257.2463655471802\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:17<00:00, 12.57it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 47 - 0.9997 | Time: 257.48075103759766\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 48 - 0.9961 | Time: 256.14071130752563\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 49 - 0.9924 | Time: 255.86912727355957\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [05:07<00:00, 10.52it/s]  \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 50 - 0.9890 | Time: 307.60218024253845\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 51 - 0.9855 | Time: 256.1259307861328\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 52 - 0.9820 | Time: 256.47174739837646\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 53 - 0.9786 | Time: 255.81377053260803\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 54 - 0.9756 | Time: 255.63748741149902\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 55 - 0.9722 | Time: 256.469434261322\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 56 - 0.9693 | Time: 256.1640591621399\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 57 - 0.9658 | Time: 256.3369336128235\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.61it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 58 - 0.9636 | Time: 256.6575903892517\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 59 - 0.9602 | Time: 256.2122519016266\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.61it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 60 - 0.9576 | Time: 256.6822690963745\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 61 - 0.9547 | Time: 256.36771416664124\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 62 - 0.9520 | Time: 256.20851492881775\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 63 - 0.9495 | Time: 255.93358397483826\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 64 - 0.9468 | Time: 256.09128403663635\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 65 - 0.9443 | Time: 255.5673384666443\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 66 - 0.9416 | Time: 255.97820162773132\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 67 - 0.9389 | Time: 255.7277443408966\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 68 - 0.9366 | Time: 256.3947858810425\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 69 - 0.9344 | Time: 256.17383551597595\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 70 - 0.9319 | Time: 255.63982033729553\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 71 - 0.9294 | Time: 255.61594367027283\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 72 - 0.9276 | Time: 256.13888454437256\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.67it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 73 - 0.9254 | Time: 255.35843634605408\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 74 - 0.9233 | Time: 255.63901495933533\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.67it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 75 - 0.9210 | Time: 255.33381032943726\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 76 - 0.9190 | Time: 255.69057369232178\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 77 - 0.9169 | Time: 255.68827080726624\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 78 - 0.9147 | Time: 256.2484323978424\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.61it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 79 - 0.9126 | Time: 256.6379346847534\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 80 - 0.9110 | Time: 255.55373334884644\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:14<00:00, 12.69it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 81 - 0.9088 | Time: 254.92481517791748\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:14<00:00, 12.69it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 82 - 0.9069 | Time: 254.92291951179504\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 83 - 0.9051 | Time: 256.2319223880768\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.67it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 84 - 0.9034 | Time: 255.43476939201355\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 85 - 0.9015 | Time: 256.0484712123871\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 86 - 0.8997 | Time: 255.82691168785095\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 87 - 0.8978 | Time: 255.56471943855286\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.68it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 88 - 0.8962 | Time: 255.11657667160034\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 89 - 0.8944 | Time: 256.13284254074097\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.67it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 90 - 0.8927 | Time: 255.43786907196045\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:14<00:00, 12.70it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 91 - 0.8909 | Time: 254.79646372795105\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.67it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 92 - 0.8897 | Time: 255.34586191177368\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 93 - 0.8882 | Time: 256.3184950351715\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 94 - 0.8865 | Time: 256.3221118450165\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 95 - 0.8848 | Time: 256.07901668548584\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.61it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 96 - 0.8832 | Time: 256.54529333114624\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 97 - 0.8816 | Time: 256.44189405441284\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 98 - 0.8802 | Time: 256.0704984664917\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 99 - 0.8785 | Time: 255.5872142314911\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 100 - 0.8769 | Time: 255.96420168876648\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.67it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 101 - 0.8757 | Time: 255.32971787452698\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 102 - 0.8738 | Time: 255.7707598209381\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.67it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 103 - 0.8728 | Time: 255.38371419906616\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 104 - 0.8713 | Time: 256.0364577770233\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 105 - 0.8702 | Time: 256.00228667259216\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 106 - 0.8692 | Time: 255.79896068572998\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 107 - 0.8673 | Time: 255.87249064445496\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 108 - 0.8662 | Time: 255.76812171936035\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 109 - 0.8649 | Time: 256.5140872001648\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 110 - 0.8634 | Time: 256.0957293510437\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 111 - 0.8619 | Time: 255.8763346672058\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 112 - 0.8608 | Time: 256.01312708854675\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.60it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 113 - 0.8592 | Time: 256.79516100883484\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 114 - 0.8585 | Time: 256.18723130226135\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 115 - 0.8568 | Time: 255.88016152381897\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.67it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 116 - 0.8560 | Time: 255.4227638244629\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 117 - 0.8545 | Time: 256.1427264213562\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 118 - 0.8534 | Time: 255.55990600585938\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 119 - 0.8522 | Time: 256.13476490974426\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 120 - 0.8511 | Time: 256.0631511211395\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 121 - 0.8502 | Time: 255.61525988578796\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 122 - 0.8488 | Time: 255.59199333190918\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.67it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 123 - 0.8477 | Time: 255.3913631439209\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 124 - 0.8463 | Time: 255.68288111686707\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 125 - 0.8457 | Time: 256.1929225921631\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 126 - 0.8444 | Time: 255.7646050453186\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.67it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 127 - 0.8433 | Time: 255.50088214874268\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 128 - 0.8421 | Time: 256.33907890319824\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 129 - 0.8410 | Time: 255.5331313610077\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 130 - 0.8399 | Time: 255.9414517879486\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.60it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 131 - 0.8391 | Time: 256.7423486709595\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.60it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 132 - 0.8381 | Time: 256.81269216537476\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 133 - 0.8371 | Time: 255.93740439414978\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 134 - 0.8360 | Time: 256.102650642395\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 135 - 0.8349 | Time: 255.8661925792694\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 136 - 0.8339 | Time: 255.9540638923645\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 137 - 0.8332 | Time: 256.17878222465515\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 138 - 0.8323 | Time: 255.6555368900299\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 139 - 0.8311 | Time: 256.048912525177\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.60it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 140 - 0.8303 | Time: 256.8061361312866\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 141 - 0.8293 | Time: 256.2330684661865\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 142 - 0.8280 | Time: 256.1173622608185\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 143 - 0.8276 | Time: 255.66036701202393\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 144 - 0.8262 | Time: 256.19122314453125\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 145 - 0.8255 | Time: 255.72252893447876\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 146 - 0.8246 | Time: 255.71342778205872\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.68it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 147 - 0.8239 | Time: 255.23737978935242\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 148 - 0.8228 | Time: 255.96746635437012\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 149 - 0.8221 | Time: 256.203914642334\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 150 - 0.8212 | Time: 256.09115386009216\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 151 - 0.8203 | Time: 255.82933688163757\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 152 - 0.8196 | Time: 256.0827922821045\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 153 - 0.8185 | Time: 255.999009847641\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 154 - 0.8176 | Time: 256.2698926925659\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 155 - 0.8170 | Time: 255.9725182056427\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 156 - 0.8158 | Time: 255.6971788406372\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 157 - 0.8151 | Time: 256.1551003456116\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 158 - 0.8144 | Time: 256.1311469078064\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 159 - 0.8133 | Time: 256.3258743286133\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 160 - 0.8129 | Time: 255.87006425857544\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 161 - 0.8121 | Time: 256.2649233341217\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.68it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 162 - 0.8111 | Time: 255.27328181266785\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 163 - 0.8104 | Time: 256.01641488075256\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.61it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 164 - 0.8096 | Time: 256.63997507095337\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.62it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 165 - 0.8090 | Time: 256.35043144226074\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 166 - 0.8082 | Time: 256.1187722682953\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.65it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 167 - 0.8074 | Time: 255.75790882110596\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 168 - 0.8064 | Time: 256.13030314445496\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:15<00:00, 12.66it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 169 - 0.8056 | Time: 255.65761876106262\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:14<00:00, 12.70it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 170 - 0.8051 | Time: 254.8127362728119\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.63it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 171 - 0.8047 | Time: 256.27600383758545\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": ["100%|██████████| 3236/3236 [04:16<00:00, 12.64it/s] \n"]
+    },
+    {
+      "name": "stdout",
+      "output_type": "stream",
+      "text": ["Epoch 172 - 0.8037 | Time: 256.0541145801544\n"]
+    },
+    {
+      "name": "stderr",
+      "output_type": "stream",
+      "text": [" 11%|█▏        | 371/3236 [00:34<04:23, 10.86it/s]\n"]
+    },
+    {
+      "ename": "KeyboardInterrupt",
+      "evalue": "",
+      "output_type": "error",
+      "traceback": [
+        "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+        "\u001b[31mKeyboardInterrupt\u001b[39m                         Traceback (most recent call last)",
+        "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[6]\u001b[39m\u001b[32m, line 39\u001b[39m\n\u001b[32m     35\u001b[39m pred = model(board_tensor_gpu)\n\u001b[32m     37\u001b[39m \u001b[38;5;66;03m# Compute loss with valid move vlaidaiton\u001b[39;00m\n\u001b[32m     38\u001b[39m \u001b[38;5;66;03m# loss = loss_fn(board_tensor, pred, target_eval_gpu.squeeze(1))\u001b[39;00m\n\u001b[32m---> \u001b[39m\u001b[32m39\u001b[39m loss = \u001b[43mloss_fn\u001b[49m\u001b[43m(\u001b[49m\u001b[43mpred\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mtarget_eval_gpu\u001b[49m\u001b[43m.\u001b[49m\u001b[43msqueeze\u001b[49m\u001b[43m(\u001b[49m\u001b[32;43m1\u001b[39;49m\u001b[43m)\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mvalid_moves\u001b[49m\u001b[43m)\u001b[49m\n\u001b[32m     40\u001b[39m loss.backward()\n\u001b[32m     42\u001b[39m \u001b[38;5;66;03m# Gradient clipping\u001b[39;00m\n",
+        "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[5]\u001b[39m\u001b[32m, line 31\u001b[39m, in \u001b[36mloss_fn\u001b[39m\u001b[34m(outputs, targets, valid_moves)\u001b[39m\n\u001b[32m     28\u001b[39m bit_idx = move % \u001b[32m64\u001b[39m\n\u001b[32m     29\u001b[39m num = valid_moves[num_idx]\n\u001b[32m---> \u001b[39m\u001b[32m31\u001b[39m shift_tensor = \u001b[43mtorch\u001b[49m\u001b[43m.\u001b[49m\u001b[43mtensor\u001b[49m\u001b[43m(\u001b[49m\u001b[32;43m1\u001b[39;49m\u001b[43m \u001b[49m\u001b[43m<<\u001b[49m\u001b[43m \u001b[49m\u001b[43mbit_idx\u001b[49m\u001b[43m,\u001b[49m\u001b[43m \u001b[49m\u001b[43mdtype\u001b[49m\u001b[43m=\u001b[49m\u001b[43mnum\u001b[49m\u001b[43m.\u001b[49m\u001b[43mdtype\u001b[49m\u001b[43m)\u001b[49m \n\u001b[32m     33\u001b[39m \u001b[38;5;28;01mif\u001b[39;00m num & shift_tensor != \u001b[32m0\u001b[39m:\n\u001b[32m     34\u001b[39m     penalization += INVALID_MOVE_LOSS\n",
+        "\u001b[31mKeyboardInterrupt\u001b[39m: "
+      ]
+    }
+  ]
+}
