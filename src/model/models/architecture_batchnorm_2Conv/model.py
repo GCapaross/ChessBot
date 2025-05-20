@@ -1,7 +1,7 @@
 from torch import nn
 import torch.nn.functional as F
 
-class _CompleteChessBotNetwork(nn.Module):
+class CompleteChessBotNetwork(nn.Module):
     def __init__(self):
         super().__init__()
         # 13 channels: 12 pieces + side to play (tensor[true's|false's])
