@@ -3,3 +3,5 @@ venv
 .venv
 poetry.lock
 .vscode
+src/dataset/raw/**
+src/dataset/processed/**
