@@ -3,5 +3,6 @@ venv
 .venv
 poetry.lock
 .vscode
+.mypy_cache
 src/dataset/raw/**
 src/dataset/processed/**
