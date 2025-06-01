@@ -1,0 +1,78 @@
+Epoch 1 - 2.5666 | Training Accuracy: 31.49%| Time: 1246.1825382709503
+Validation set - accuracy: 35.45% | loss: 2.2508
+Epoch 2 - 2.1155 | Training Accuracy: 38.50%| Time: 1273.3694078922272
+Validation set - accuracy: 38.61% | loss: 2.1021
+Epoch 3 - 1.9916 | Training Accuracy: 41.05%| Time: 1068.874923467636
+Validation set - accuracy: 40.26% | loss: 2.0312
+Epoch 4 - 1.9197 | Training Accuracy: 42.60%| Time: 925.1836459636688
+Validation set - accuracy: 40.38% | loss: 2.0105
+Epoch 5 - 1.8700 | Training Accuracy: 43.71%| Time: 937.1689310073853
+Validation set - accuracy: 41.45% | loss: 1.9786
+Epoch 6 - 1.8327 | Training Accuracy: 44.54%| Time: 940.3122651576996
+Validation set - accuracy: 41.80% | loss: 1.9696
+Epoch 7 - 1.8030 | Training Accuracy: 45.25%| Time: 939.8858187198639
+Validation set - accuracy: 41.31% | loss: 1.9709
+Epoch 8 - 1.7792 | Training Accuracy: 45.81%| Time: 935.4355816841125
+Validation set - accuracy: 41.68% | loss: 1.9663
+Epoch 9 - 1.7594 | Training Accuracy: 46.28%| Time: 928.9051811695099
+Validation set - accuracy: 41.85% | loss: 1.9573
+Epoch 10 - 1.7426 | Training Accuracy: 46.70%| Time: 993.242814540863
+Validation set - accuracy: 41.84% | loss: 1.9633
+Epoch 11 - 1.7283 | Training Accuracy: 47.06%| Time: 969.369188785553
+Validation set - accuracy: 41.84% | loss: 1.9682
+Epoch 12 - 1.7158 | Training Accuracy: 47.38%| Time: 1011.3631920814514
+Validation set - accuracy: 41.88% | loss: 1.9594
+Epoch 13 - 1.7047 | Training Accuracy: 47.65%| Time: 1065.7947907447815
+Validation set - accuracy: 42.19% | loss: 1.9654
+Epoch 14 - 1.6951 | Training Accuracy: 47.89%| Time: 1093.945404291153
+Validation set - accuracy: 42.01% | loss: 1.9681
+Epoch 15 - 1.6863 | Training Accuracy: 48.13%| Time: 990.7434470653534
+Validation set - accuracy: 41.92% | loss: 1.9722
+Epoch 16 - 1.6786 | Training Accuracy: 48.30%| Time: 994.812771320343
+Validation set - accuracy: 41.98% | loss: 1.9692
+Epoch 17 - 1.6716 | Training Accuracy: 48.47%| Time: 1000.4717683792114
+Validation set - accuracy: 42.04% | loss: 1.9746
+Epoch 18 - 1.6651 | Training Accuracy: 48.66%| Time: 980.6790416240692
+Validation set - accuracy: 41.88% | loss: 1.9752
+Epoch 19 - 1.6594 | Training Accuracy: 48.81%| Time: 940.5280063152313
+Validation set - accuracy: 41.92% | loss: 1.9853
+Epoch 20 - 1.6540 | Training Accuracy: 48.94%| Time: 943.7549502849579
+Validation set - accuracy: 42.12% | loss: 1.9889
+Epoch 21 - 1.6498 | Training Accuracy: 49.06%| Time: 1188.2728581428528
+Validation set - accuracy: 41.85% | loss: 1.9918
+Epoch 22 - 1.6451 | Training Accuracy: 49.18%| Time: 1158.7117002010345
+Validation set - accuracy: 42.10% | loss: 1.9902
+Epoch 23 - 1.6407 | Training Accuracy: 49.29%| Time: 1168.525618314743
+Validation set - accuracy: 41.88% | loss: 1.9964
+Epoch 24 - 1.6367 | Training Accuracy: 49.40%| Time: 1167.0051622390747
+Validation set - accuracy: 41.97% | loss: 1.9924
+Epoch 21 - 1.6497 | Training Accuracy: 49.05%| Time: 1129.2576994895935
+Validation set - accuracy: 41.93% | loss: 1.9877
+Epoch 22 - 1.6450 | Training Accuracy: 49.18%| Time: 1108.1505796909332
+Validation set - accuracy: 42.02% | loss: 1.9964
+Epoch 23 - 1.6408 | Training Accuracy: 49.30%| Time: 1115.7941944599152
+Validation set - accuracy: 42.02% | loss: 1.9888
+Epoch 24 - 1.6369 | Training Accuracy: 49.41%| Time: 1088.2141144275665
+Validation set - accuracy: 42.11% | loss: 1.9917
+Epoch 25 - 1.6333 | Training Accuracy: 49.49%| Time: 1082.9902493953705
+Validation set - accuracy: 42.28% | loss: 1.9992
+Epoch 26 - 1.6297 | Training Accuracy: 49.60%| Time: 1077.987300157547
+Validation set - accuracy: 41.84% | loss: 1.9976
+Epoch 27 - 1.6267 | Training Accuracy: 49.67%| Time: 1159.1764605045319
+Validation set - accuracy: 42.04% | loss: 2.0029
+Epoch 28 - 1.6237 | Training Accuracy: 49.75%| Time: 1067.38348031044
+Validation set - accuracy: 41.85% | loss: 2.0169
+Epoch 29 - 1.6210 | Training Accuracy: 49.83%| Time: 1064.3305485248566
+Validation set - accuracy: 42.02% | loss: 2.0055
+Epoch 30 - 1.6184 | Training Accuracy: 49.89%| Time: 1126.4589579105377
+Validation set - accuracy: 41.87% | loss: 2.0168
+Epoch 31 - 1.6161 | Training Accuracy: 49.95%| Time: 1215.4824821949005
+Validation set - accuracy: 42.14% | loss: 2.0055
+Epoch 32 - 1.6137 | Training Accuracy: 50.01%| Time: 1220.7893600463867
+Validation set - accuracy: 41.66% | loss: 2.0107
+Epoch 33 - 1.6116 | Training Accuracy: 50.07%| Time: 1082.3708486557007
+Validation set - accuracy: 41.92% | loss: 2.0222
+Epoch 34 - 1.6095 | Training Accuracy: 50.11%| Time: 1055.347023487091
+Validation set - accuracy: 41.88% | loss: 2.0138
+Epoch 35 - 1.6077 | Training Accuracy: 50.18%| Time: 1086.0530326366425
+Validation set - accuracy: 41.75% | loss: 2.0229

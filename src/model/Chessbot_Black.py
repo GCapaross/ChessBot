@@ -4,7 +4,7 @@ import pickle
 import torch
 
 # Base model
-from models.architecture_2Conv_classes.model import ChessModel as ChessModel
+from architecture_2Conv_classes.model import ChessModel as ChessModel
 
 # Utils
 piece_to_idx = {
@@ -15,8 +15,8 @@ piece_to_idx = {
 # Constants
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # MODEL_WEIGHTS = './models/architecture_2Conv_classes/blackOnly_batchnorm/epoch-80.pth'
-MODEL_WEIGHTS = './models/architecture_2Conv_classes/test/epoch-35.pth'
-MOVE_DICTIONARY = "../dataset/processed/test_elite/move_dictionary.p"
+MODEL_WEIGHTS = './architecture_2Conv_classes/blackOnly_7kernel/epoch-35.pth'
+MOVE_DICTIONARY = "./move_dictionary.p"
 
 class ChessBot:
     def __init__(self):
@@ -63,5 +63,3 @@ class ChessBot:
         probabilities = torch.softmax(logits, dim=0).cpu().numpy()  # Convert to probabilities
         
         return probabilities
-    
-print("ChessBot initialized with model weights from:", MODEL_WEIGHTS)
