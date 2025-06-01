@@ -1,0 +1,115 @@
+Games PGN's examples
+
+game 1 pgn 200
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1/2-1/2"]
+[Link "https://www.chess.com/game/computer/296040662"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 c6 5. Bg5 dxc4 6. e4 b5 7. e5 h6 8. Bh4 g5
+9. Nxg5 hxg5 10. Bxg5 Nbd7 11. exf6 Bb7 12. g3 Qb6 13. Rc1 O-O-O 14. Be3 c5 15.
+a4 b4 16. Bxc4 Nxf6 17. g4 cxd4 18. Ne4 dxe3 19. f3 Nxe4 20. Qe2 Nd2 21. Bxe6+
+Kb8 22. Rc7 Rh4 23. Rxb7+ Ka8 24. Rb8+ Kxb8 25. Bf5 b3 26. Qxd2 exd2+ 27. Kd1
+Bb4 28. a5 Qxa5 29. Bg6 Qb6 30. Bxf7 Qd4 31. Rf1 Qd3 32. Rf2 Bc5 33. h3 Qd4 34.
+Rh2 Kc7 35. Bg8 a5 36. Bxb3 Kd6 37. Bf7 Qd3 38. Bd5 Kxd5 39. Rg2 Qxf3+ 40. Kxd2
+Kc4+ 41. Ke1 Qd3 42. Rc2+ Kb3 43. Rxc5 a4 44. Rc3+ Kxb2 45. Rxd3 a3 46. Rd7 a2
+47. Rb7+ Kc1 48. Rd7 Rxd7 49. Kf2 Rxh3 50. Kg2 Rh2+ 51. Kf3 a1=Q 52. Kf4 Qa2 53.
+Kf5 Qf2+ 54. Ke5 Qg2 55. Kf4 Qf2+ 56. Ke5 Qg2 57. Kf4 Qf2+ 58. Ke5 1/2-1/2
+
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1/2-1/2"]
+[Link "https://www.chess.com/game/computer/296072678"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. d4 Bg7 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7
+9. b4 a5 10. Ba3 axb4 11. Bxb4 Nd7 12. g4 f5 13. Qb3 Nf6 14. exf5 gxf5 15. Nxe5
+Kh8 16. g5 Nfg8 17. Nf3 Ng6 18. Rfe1 Re8 19. Nd2 Bh6 20. Rf1 f4 21. Nce4 Re5 22.
+Nf3 Bg7 23. Rfd1 Rxe4 24. Rd2 Qe7 25. Rb2 Qf7 26. Kg2 Bf5 27. h4 Rae8 28. Kg1 b6
+29. Bd3 Nxh4 30. Nxh4 Re1+ 31. Rxe1 Rxe1+ 32. Bxe1 Bxd3 33. Qxd3 Bxb2 34. Bc3+
+Bxc3 35. Qxc3+ Nf6 36. Qxf6+ Qxf6 37. gxf6 Kg8 38. a4 Kf7 39. Nf3 Kxf6 40. Nd4
+Ke5 41. Ne6 Kf6 42. Kf1 Ke5 43. f3 Kf6 44. Nxf4 Ke5 45. Ne6 Kf6 46. Kg1 Ke5 47.
+Ng5 Kd4 48. Nxh7 Kxc4 49. Kg2 Kxd5 50. Nf6+ Ke6 51. Ng4 Kf5 52. Kh2 Kf4 53. Kg2
+c5 54. Nf6 c4 55. Nh5+ Kg5 56. Ng3 c3 57. f4+ Kxf4 58. Ne2+ Ke3 59. Ng1 c2 60.
+a5 bxa5 61. Kh3 a4 62. Kg2 a3 63. Nf3 c1=Q 64. Nh2 Qc6+ 65. Kg3 Qc2 66. Kh4 a2
+67. Nf1+ Kf4 68. Kh3 a1=Q 69. Ng3 Qaa2 70. Nh5+ Kg5 71. Ng3 Qg6 72. Nh5 Qxh5+
+73. Kg3 Qa3+ 74. Kg2 Qf7 75. Kh1 Qf4 76. Kg1 Qab4 77. Kh1 Qfe4+ 78. Kh2 Qb2+ 79.
+Kg1 Qbb1+ 80. Kh2 d5 81. Kg3 Qbd3+ 82. Kh2 Qec4 83. Kg1 Kf4 84. Kh2 d4 85. Kg1
+Ke3 86. Kg2 Qe2+ 87. Kh3 Qf3+ 88. Kh4 Qfe2 89. Kg3 Kd2 90. Kf4 d3+ 91. Kg5 Qe3+
+92. Kh5 Qc1 93. Kg6 Qg5+ 94. Kxg5 Qf1 95. Kg4 Qe2+ 96. Kg5 Qe3+ 97. Kf6 Kc2 98.
+Kg6 d2 99. Kf5 Qd3+ 100. Ke6 Qc3 101. Kf7 d1=Q 102. Kf8 Qde1 103. Kg8 Kd2 104.
+Kh7 Qce3 105. Kg8 Qa1 106. Kf7 Qad4 107. Kg8 Qdd3 108. Kh8 Qd7 109. Kg8 Qg5+
+110. Kf8 Qdd5 111. Ke8 Qf6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[Link "https://www.chess.com/game/computer/296083362"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 c5 5. e3 O-O 6. Bd3 d5 7. O-O dxc4 8. Bxc4
+Nc6 9. Bb3 cxd4 10. exd4 Na5 11. Kh1 Nxb3 12. Qxb3 Bxc3 13. bxc3 b6 14. Kg1 Bb7
+15. Bg5 Qd5 16. Kh1 Ne4 17. Qxd5 Bxd5 18. Rac1 Nxg5 19. Nxg5 h6 20. Nh7 Rfc8 21.
+Nf6+ gxf6 22. a3 Rxc3 23. Rxc3 Rc8 24. Rxc8+ Kg7 25. Rd8 f5 26. a4 Bc4 27. Rb1
+f4 28. Rg8+ Kf6 29. Rd8 Ke7 30. Ra8 Ba2 31. Rxa7+ Kd6 32. Rxb6+ Kd5 33. Rd7+ Kc4
+34. Rc7+ Kd5 35. Rd7+ Kc4 36. Re7 Bb3 37. Rb4+ Kxb4 38. Re8 Bxa4 39. Re7 Bc6 40.
+Rxf7 Kc3 41. Rf6 h5 42. h4 Kd2 43. Rxf4 Bd5 44. Kh2 Ke2 45. Rf8 Be4 46. Rf6 Kf1
+47. f4 Bf5 48. Rxf5 exf5 49. d5 Kf2 50. g3 Ke2 51. d6 Kf3 52. d7 Kg4 53. d8=Q
+Kf3 54. Qf8 Kg4 55. Qb4 Kf3 56. Qd2 Kg4 57. Qe2# 1-0
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[Link "https://www.chess.com/game/computer/296093506"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. c3 Nf6 5. e5 Nd5 6. Qe2 Bg7 7. a3 Nb6 8. Kf1
+O-O 9. b3 a6 10. Bxc6 dxc6 11. h4 Bg4 12. Qe3 Nd5 13. e6 f5 14. Qe1 Bxf3 15.
+gxf3 Re8 16. a4 Qd6 17. d3 Kh8 18. h5 b5 19. Ra3 Rad8 20. Bg5 Nf4 21. Bxf4 Qxf4
+22. hxg6 Rd6 23. Rh5 h6 24. c4 Bd4 25. axb5 Qxf3 26. Rxh6+ Kg8 27. Rh4 Bg7 28.
+bxa6 Ra8 29. Kg1 Rdd8 30. Nd2 Qh1+ 31. Kxh1 Kf8 32. f4 Bd4 33. Rh7 Re8 34. Rf7+
+Kg8 35. Rxf5 Kg7 36. Ne4 Rxa6 37. Rxa6 Kxg6 38. Rg5+ Kh6 39. Qh4# 1-0
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[Link "https://www.chess.com/game/computer/296103402"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. Re1 Nf6 6. e5 Nd5 7. Nc3 Nc7 8. Bxc6
+dxc6 9. Ne4 b6 10. d4 cxd4 11. Nxd4 Qd5 12. Nc3 Qxe5 13. Rxe5 Bxe5 14. Nxc6 Bb7
+15. Nxe5 f6 16. Qd7+ Kf8 17. Qxc7 Re8 18. Nd7+ Kf7 19. Qxb7 Rc8 20. Qxa7 Rhe8
+21. Qa4 b5 22. Qxb5 e6 23. Ne4 Re7 24. Nd6+ Kg8 25. Nxf6+ Kg7 26. Nxc8 Kxf6 27.
+Bg5+ Kg7 28. Qe5+ Kg8 29. Nxe7+ Kf7 30. a4 h6 31. Qf6+ Ke8 32. Qxg6+ Kd7 33.
+Rd1+ Kc7 34. Bxh6 Kb7 35. Qxe6 Kb8 36. Be3 Kc7 37. Qc8# 1-0
+
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be7 8. f3 O-O 9. Bc4 Be6 10. Bd5 Nxd5 11. Nxd5 Bxd5 12. Qxd5 Nc6 13. Kf1 Rc8 14. Ke2 Nb4 15. Qxb7 Rxc2+ 16. Nd2 a5 17. Rab1 Bg5 18. Kf2 Bxe3+ 19. Kxe3 Qg5+ 20. f4 exf4+ 21. Ke2 Qxg2+ 22. Ke1 Qxh1+ 23. Nf1 Qf3 24. Qxf7+ Rxf7 25. Nd2 Qf2+ 26. Kxf2 Rxd2+ 27. Kf3 Rxh2 28. e5 dxe5 29. a3 Nc2 30. a4 h5 31. Ke4 h4 32. Kf3 h3 33. b4 Nxb4 34. Kg4 Rg2+ 35. Kh4 h2 36. Kh5 f3 37. Re1 f2 38. Rc1 h1=Q+ 39. Rxh1 Rg1 40. Rxg1 Rf5+ 41. Kh4 f1=Q 42. Rxf1 Rxf1 43. Kh3 Rf3+ 44. Kg2 Rb3 45. Kf2 Kf7 46. Ke2 Rb2+ 47. Kd1 e4 48. Kc1 Rc2+ 49. Kb1 Re2 50. Kc1 e3 51. Kd1 Rd2+ 52. Ke1 Ra2 53. Kd1 g5 54. Kc1 Nd3+ 55. Kb1 Rxa4 56. Kc2 Nf4 57. Kb3 Ra1 58. Kb2 e2 59. Kxa1 e1=Q+ 60. Kb2 Qb4+ 61. Kc2 a4 62. Kc1 a3 63. Kd1 a2 64. Kc2 a1=Q *
