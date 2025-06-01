@@ -53,12 +53,13 @@ class old_ChessModel_13(nn.Module):
         x = self.fc2(x)  # Output raw logits
         return x
     
-class ChessModel(nn.Module):
-    def __init__(self, num_classes):
+class  ChessModel(nn.Module):
+    def __init__(self, num_classes, kernel_size=3):
         super().__init__()
         # conv1 -> relu -> conv2 -> relu -> flatten -> fc1 -> relu -> fc2
-        self.conv1 = nn.Conv2d(12, 64, kernel_size=3, padding=1)
-        self.conv2 = nn.Conv2d(64, 128, kernel_size=3, padding=1)
+        padding = kernel_size // 2
+        self.conv1 = nn.Conv2d(12, 64, kernel_size=kernel_size, padding=padding)
+        self.conv2 = nn.Conv2d(64, 128, kernel_size=kernel_size, padding=padding)
 
         self.batchnorm1 = nn.BatchNorm2d(64)
         self.batchnorm2 = nn.BatchNorm2d(128)

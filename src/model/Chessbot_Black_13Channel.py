@@ -14,8 +14,8 @@ piece_to_idx = {
 
 # Constants
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-MODEL_WEIGHTS = './models/architecture_2Conv_classes/blackOnly_13/epoch-45.pth'
-MOVE_DICTIONARY = "../dataset/processed/test_elite/move_dictionary_13.p"
+MODEL_WEIGHTS = './models/architecture_2Conv_classes/blackOnly/TORCh_100EPOCHS.pth'
+MOVE_DICTIONARY = "./models/architecture_2Conv_classes/blackOnly/move_dictionary."
 
 class ChessBot_13:
     def __init__(self):

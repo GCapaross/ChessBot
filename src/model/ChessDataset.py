@@ -2,28 +2,29 @@ import json
 import numpy as np
 import polars as pl
 import random
-from torch.utils.data import Dataset, DataLoader, IterableDataset
+from torch.utils.data import Dataset
 import torch
 
 VALIDATION_SIZE = 50_000
 
 class ChessEvalDataset(Dataset):
-    def __init__(self, file: str, load_batch_size = 6_400, validation_size = VALIDATION_SIZE, headers = ("bitmaps", "movePlayed", "validMoves")):
+    def __init__(self, file: str, load_batch_size = 6_400, validation_size = VALIDATION_SIZE, max_examples=None, headers = ("bitmaps", "movePlayed", "validMoves")):
         self.lazy_dataset = pl.scan_csv(file, has_header=False, new_columns=headers)
         self.batch_size = load_batch_size
         self.feature_col = "bitmaps"
         self.target_col = "movePlayed"
 
         self.validation_size = validation_size
+        
         self.total_rows = self.lazy_dataset.select(pl.len()).collect().item() - self.validation_size
-        # self.total_rows = 2_500_000 
+        if max_examples is not None:
+            self.total_rows = min(self.total_rows, max_examples)
 
         self.cached_batches: dict[int, tuple] = {}
         self.cached_batch_id: int | None = None
 
     def __len__(self):
         return self.total_rows
-        # return 2_500_000  # For testing purposes, we can limit the dataset size
     
     def get_validation_set(self):
         """Get the validation set"""
@@ -35,6 +36,7 @@ class ChessEvalDataset(Dataset):
         # Process features and target
         features = validation_dataset.select(self.feature_col)
         features = torch.tensor(np.array([self.convert_to_array_bitmap(bitmaps) for bitmaps in features["bitmaps"]]), dtype=torch.float32)
+
         
         played_moves = validation_dataset.select(self.target_col).to_numpy()
         targets = torch.tensor(played_moves, dtype=torch.long)
@@ -63,8 +65,7 @@ class ChessEvalDataset(Dataset):
         
         # Process features and target
         features = batch_dataset.select(self.feature_col)
-        features = torch.tensor(np.array([self.convert_to_array_bitmap(bitmaps) for bitmaps in features["bitmaps"]]), dtype=torch.float32)
-        
+        features = torch.tensor(np.array([self.convert_to_array_bitmap(game_bitmaps) for game_bitmaps in features["bitmaps"]]), dtype=torch.float32)
         played_moves = batch_dataset.select(self.target_col).to_numpy()
         targets = torch.tensor(played_moves, dtype=torch.long)
 
@@ -114,6 +115,10 @@ class ChessEvalDataset(Dataset):
 
 
 class ChessEvalDataset_13(Dataset):
+    """ 
+    This  class differs from ChessEvalDataset in that it has 13 channels instead of 12.
+    This is used for the model that receives the valid moves as input.
+    """
     def __init__(self, file: str, load_batch_size = 6_400, validation_size = VALIDATION_SIZE, headers = ("bitmaps", "movePlayed", "validMoves")):
         self.lazy_dataset = pl.scan_csv(file, has_header=False, new_columns=headers)
         self.batch_size = load_batch_size

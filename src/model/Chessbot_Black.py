@@ -4,7 +4,7 @@ import pickle
 import torch
 
 # Base model
-from models.architecture_2Conv_classes.model import old_ChessModel as ChessModel
+from models.architecture_2Conv_classes.model import ChessModel as ChessModel
 
 # Utils
 piece_to_idx = {
@@ -14,7 +14,8 @@ piece_to_idx = {
 
 # Constants
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-MODEL_WEIGHTS = './models/architecture_2Conv_classes/blackOnly/epoch-100.pth'
+# MODEL_WEIGHTS = './models/architecture_2Conv_classes/blackOnly_batchnorm/epoch-80.pth'
+MODEL_WEIGHTS = './models/architecture_2Conv_classes/test/epoch-35.pth'
 MOVE_DICTIONARY = "../dataset/processed/test_elite/move_dictionary.p"
 
 class ChessBot:
@@ -22,7 +23,7 @@ class ChessBot:
         with open(MOVE_DICTIONARY, "rb") as f:
             self.move_dictionary = pickle.load(f)
         self.reverse_move_dictionary = {v: k for k, v in self.move_dictionary.items()}
-        self.trained_model = ChessModel(len(self.move_dictionary)).to(device)
+        self.trained_model = ChessModel(len(self.move_dictionary), kernel_size=7).to(device)
         self.trained_model.load_state_dict(torch.load(MODEL_WEIGHTS))
         self.trained_model.eval()  # Set model to evaluation mode
 
